@@ -625,9 +625,9 @@ JustGage = function(config) {
   // label
   obj.txtLabel = obj.canvas.text(obj.params.labelX, obj.params.labelY, obj.config.label);
   obj.txtLabel.attr({
-    "font-size": obj.params.labelFontSize,
-    "font-weight": "normal",
-    "font-family": "Arial",
+    "font-size": "16px",
+    "font-weight": "bold",
+    "font-family": "Arial,'Microsoft Yahei','Hiragino Sans GB',sans-serif",
     "fill": obj.config.labelFontColor,
     "fill-opacity": "0"
   });
